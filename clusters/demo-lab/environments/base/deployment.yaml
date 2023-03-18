@@ -22,7 +22,7 @@ spec:
         app: podinfo
     spec:
       containers:
-        - name: podinfod
+        - name: podinfo
           image: ghcr.io/stefanprodan/podinfo
           imagePullPolicy: IfNotPresent
           ports:
