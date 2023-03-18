@@ -1,0 +1,22 @@
+resources:
+  - ../../base
+  - namespace.yaml
+
+namespace: prod
+
+namePrefix: prod-
+
+nameSuffix: -v1
+
+commonLabels:
+  app: podinfo
+  repo: gitops-flux
+  ns: prod
+
+commonAnnotations:
+  gitops: flux
+
+configMapGenerator:
+  - name: podinfo-configmap
+    envs:
+      - config.properties
