@@ -1,6 +1,6 @@
 # gitops-flux
 
-[Mini Project] - GitOps with [Flux](https://fluxcd.io/flux/).
+[Mini Project] - Create a cluster, bootstrap [Flux](https://fluxcd.io/flux/) and see how GitOps works with this tool and [Kustomize](https://kubectl.docs.kubernetes.io/).
 
 ## Prerequisites
 
