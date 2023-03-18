@@ -22,7 +22,7 @@ flux bootstrap github \
 --owner=gitHubUserNameHere \
 --repository=gitops-flux \
 --branch=main \
---path=clusters/flux-demo-lab \
+--path=clusters/staging \
 --personal \
 --token-auth
 ```
