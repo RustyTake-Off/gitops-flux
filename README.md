@@ -24,3 +24,5 @@ flux bootstrap github \
   --personal \
   --token-auth
 ```
+
+fd
