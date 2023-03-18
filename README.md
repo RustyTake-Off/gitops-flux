@@ -12,12 +12,14 @@
 
 ## Bootstraping Flux on a cluster to a GitHub repository
 
-For installing Flux on the cluster use the bellow which will also connect it to provided GitHub repository create in it required resources.
+For installing Flux on the cluster use the bellow command, which will also connect it to provided GitHub repository.
+
+It will also create in it the required resources.
 
 ```bash
 flux bootstrap github \
-  --components-extra=image-reflector-controller, image-automation-controller \
-  --owner=>>>gitHubUserNameHere<<< \
+  --components-extra=image-reflector-controller,image-automation-controller \
+  --owner=gitHubUserNameHere \
   --repository=gitops-flux \
   --branch=main \
   --path=clusters/demo-lab \
