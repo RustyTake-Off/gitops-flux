@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: podinfo
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: podinfo
   ports:
