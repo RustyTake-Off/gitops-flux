@@ -1,8 +1,21 @@
-bases:
+resources:
   - ../../base
 
 namespace: dev
 
+namePrefix: dev-
+
+nameSuffix: -v1
+
+commonLabels:
+  app: podinfo
+  repo: gitops-flux
+  ns: dev
+
+commonAnnotations:
+  gitops: flux
+
 configMapGenerator:
   - name: podinfo-configmap
-    env: config.properties
+    envs:
+      - config.properties
