@@ -44,6 +44,9 @@ spec:
             - --level=info
             - --random-delay=false
             - --random-error=false
+          envFrom:
+            - configMapRef:
+                name: podinfo-configmap
           livenessProbe:
             exec:
               command:
