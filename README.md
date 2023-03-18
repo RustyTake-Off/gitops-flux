@@ -27,4 +27,4 @@ flux bootstrap github \
   --token-auth
 ```
 
-fd
+## Add the deployment files

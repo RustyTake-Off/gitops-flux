@@ -1,0 +1,8 @@
+bases:
+  - ../../base
+
+namespace: dev
+
+configMapGenerator:
+  - name: podinfo-configmap
+    env: config.properties
