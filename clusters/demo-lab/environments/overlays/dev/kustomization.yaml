@@ -2,7 +2,8 @@ resources:
   - ../../base
   - namespace.yaml
 
-namespace: dev
+metadata:
+  namespace: dev
 
 namePrefix: dev-
 
