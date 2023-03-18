@@ -14,7 +14,7 @@
 
 For installing Flux on the cluster use the bellow command, which will also connect it to provided GitHub repository.
 
-It will also create in the cluster and in GitHub required resources.
+It will create required resources in the cluster and store them in GitHub repository.
 
 ```bash
 flux bootstrap github \
