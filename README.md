@@ -4,7 +4,7 @@ Remember to look around all the folders, files and change things to your own lik
 
 ## [Projects](https://github.com/RustyTake-Off/projects)
 
-[Mini Project] - Create a cluster, bootstrap [Flux](https://fluxcd.io/flux/) and see how GitOps works with this tool and [Kustomize](https://kubectl.docs.kubernetes.io/).
+Create a cluster, bootstrap [Flux](https://fluxcd.io/flux/) and see how GitOps works with this tool and [Kustomize](https://kubectl.docs.kubernetes.io/).
 
 ## Prerequisites
 
